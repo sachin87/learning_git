@@ -1,5 +1,5 @@
 module ApplicationHelper
   def english
-    puts "String"
+    puts "Vidushee"
   end
 end
