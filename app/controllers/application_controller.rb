@@ -1,4 +1,3 @@
-
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
@@ -9,7 +8,6 @@ class ApplicationController < ActionController::Base
   def total_price
     price * items
   end
-
 
   def person_deatils
     puts "coming soon"
