@@ -1,3 +1,4 @@
+
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
@@ -12,5 +13,17 @@ class ApplicationController < ActionController::Base
   def person_deatils
     puts "coming soon"
   end
- 
+
+
+  def ask_question
+    puts 'question'
+    reply= gets.chomp.downcase
+    if reply== 'yes'
+      true
+      elseif reply== 'no'
+      false
+    else
+      puts 'Please answer "yes" or "no".'
+    end
+  end
 end
