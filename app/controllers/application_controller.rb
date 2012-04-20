@@ -1,4 +1,3 @@
-
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
@@ -8,6 +7,10 @@ class ApplicationController < ActionController::Base
 
   def total_price
     price * items
+  end
+
+  def person_deatils
+    puts "coming soon"
   end
 
   def ask_question
@@ -21,4 +24,9 @@ class ApplicationController < ActionController::Base
       puts 'Please answer "yes" or "no".'
     end
   end
+
+  def good_method
+    puts "wel come"
+  end
+
 end
