@@ -4,4 +4,9 @@ class ApplicationController < ActionController::Base
   def hai
     puts "inside new"
   end
+
+  def total_price
+    price * items
+  end
+ 
 end
