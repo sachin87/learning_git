@@ -1,3 +1,4 @@
+
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
@@ -19,9 +20,5 @@ class ApplicationController < ActionController::Base
     else
       puts 'Please answer "yes" or "no".'
     end
-
   end
 end
-
-  
-
