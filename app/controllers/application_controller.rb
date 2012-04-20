@@ -8,5 +8,20 @@ class ApplicationController < ActionController::Base
   def total_price
     price * items
   end
- 
+
+  def ask_question
+    puts 'question'
+    reply= gets.chomp.downcase
+    if reply== 'yes'
+      true
+      elseif reply== 'no'
+      false
+    else
+      puts 'Please answer "yes" or "no".'
+    end
+
+  end
 end
+
+  
+
