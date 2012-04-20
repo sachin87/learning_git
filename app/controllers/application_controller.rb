@@ -9,20 +9,9 @@ class ApplicationController < ActionController::Base
     price * items
   end
 
-<<<<<<< HEAD
   def person_deatils
     puts "coming soon"
   end
-
-
-
-=======
->>>>>>> application_controller
-  def person_deatils
-    puts "coming soon"
-  end
- 
-
 
   def ask_question
     puts 'question'
@@ -34,6 +23,10 @@ class ApplicationController < ActionController::Base
     else
       puts 'Please answer "yes" or "no".'
     end
+  end
+
+  def good_method
+    puts "wel come"
   end
 
 end
