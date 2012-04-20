@@ -10,10 +10,17 @@ class ApplicationController < ActionController::Base
     price * items
   end
 
+
   def person_deatils
     puts "coming soon"
   end
 
+
+
+  def person_deatils
+    puts "coming soon"
+  end
+ 
 
   def ask_question
     puts 'question'
@@ -26,4 +33,5 @@ class ApplicationController < ActionController::Base
       puts 'Please answer "yes" or "no".'
     end
   end
+
 end
