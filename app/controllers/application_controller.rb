@@ -1,4 +1,3 @@
-
 class ApplicationController < ActionController::Base
   protect_from_forgery
 
@@ -10,12 +9,15 @@ class ApplicationController < ActionController::Base
     price * items
   end
 
+<<<<<<< HEAD
   def person_deatils
     puts "coming soon"
   end
 
 
 
+=======
+>>>>>>> application_controller
   def person_deatils
     puts "coming soon"
   end
