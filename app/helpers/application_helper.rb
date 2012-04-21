@@ -9,5 +9,14 @@ module ApplicationHelper
       title_name = "ruby on Rails "
     end
   end
+  
+  def person_details(p_name)
+    if p_name == "manish"
+      puts "welcome"
+    else
+      puts "sorry, you are not authorized"
+    end
+  end
+
 end
 end
