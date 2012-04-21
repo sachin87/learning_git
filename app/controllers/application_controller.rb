@@ -21,4 +21,9 @@ class ApplicationController < ActionController::Base
       puts 'Please answer "yes" or "no".'
     end
   end
+
+  def final_result
+    puts "sucess"
+  end
+
 end
